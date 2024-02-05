@@ -47,15 +47,11 @@ body:has(#piros:checked) {
   header a {
     color: red;
   }
-  :root {
-    --display: none;
-  }
 }
 :root {
-  --c: red;
-  --display: red;
+  --c: black;
 }
-body:has(#szin:checked) {
+body:has(#piros:checked) {
   --c: red;
 }
 h1 {
